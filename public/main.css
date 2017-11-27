@@ -1,11 +1,43 @@
 * {
-  background-color: #edbab7;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1, p, .nav-bar {
-  text-align: center;
+.menu-container {
+ /*color: #fff;*/
+ background-color: #edbab7;
+ padding: 20px 0;
+ display: flex;
+ justify-content: center;
+
 }
 
-.spinning-box-1, .spinning-box-2 {
-  text-align: center;
+.menu {
+  /*border: 1px solid #fff;*/
+  width: 900px;
+  /*display: flex;
+  justify-content: space-around;*/
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
 }
